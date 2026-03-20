@@ -1,0 +1,9 @@
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/orion343dream/NexaShopping-UserService.git
+[submodule "item-service"]
+	path = item-service
+	url = https://github.com/orion343dream/NexaShopping-ItemService.git
+[submodule "order-service"]
+	path = order-service
+	url = https://github.com/orion343dream/NexaShopping-OrderService.git
