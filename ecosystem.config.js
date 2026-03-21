@@ -1,5 +1,11 @@
 module.exports = {
-  apps : [{
+  apps : [
+    {
+      name   : "cloud-sql-auth-proxy",
+      script : "./cloud-sql-proxy silent-bird-489817-g0:asia-southeast1:mysql-vm silent-bird-489817-g0:asia-southeast1:postgres-vm --private-ip",
+      log_file: "./logs/cloud-sql-auth-proxy-out.log",
+    },
+    {
     name   : "user-service",
     script : "java -jar ./user-service/target/User-Service-1.0.0.jar",
     instances : 2,
