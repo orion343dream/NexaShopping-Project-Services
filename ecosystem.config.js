@@ -9,7 +9,7 @@ module.exports = {
       name      : "user-service",
       script    : "java",
       args      : "-Xmx256m -jar ./user-service/target/User-Service-1.0.0.jar",
-      instances : 1,
+      instances : 2,
       log       : "./logs/user-service.log",
       error     : "./logs/user-service-error.log"
     },
@@ -17,7 +17,7 @@ module.exports = {
       name      : "item-service",
       script    : "java",
       args      : "-Xmx256m -jar ./item-service/target/Item-Service-1.0.0.jar",
-      instances : 1,
+      instances : 2,
       log       : "./logs/item-service.log",
       error     : "./logs/item-service-error.log"
     },
@@ -25,7 +25,7 @@ module.exports = {
       name      : "order-service",
       script    : "java",
       args      : "-Xmx256m -jar ./order-service/target/Order-Service-1.0.0.jar",
-      instances : 1,
+      instances : 2,
       log       : "./logs/order-service.log",
       error     : "./logs/order-service-error.log"
     }
