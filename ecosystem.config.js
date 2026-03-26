@@ -3,7 +3,7 @@ module.exports = {
     {
       name   : "cloud-sql-auth-proxy",
       script : "./cloud-sql-proxy",
-      args   : "silent-bird-489817-g0:asia-southeast1:mysql-vm silent-bird-489817-g0:asia-southeast1:postgres-vm --private-ip",
+      args : "--address 0.0.0.0 nexashopping-enterprise:asia-southeast1:mysql-vm?port=3306 nexashopping-enterprise:asia-southeast1:postgres-vm?port=5432",
     },
     {
       name      : "user-service",
