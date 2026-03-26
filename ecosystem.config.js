@@ -1,9 +1,9 @@
 module.exports = {
   apps : [
     {
-      name   : "cloud-sql-auth-proxy",
-      script : "./cloud-sql-proxy",
-      args : "--address 0.0.0.0 nexashopping-enterprise:asia-southeast1:mysql-vm?port=3306 nexashopping-enterprise:asia-southeast1:postgres-vm?port=5432",
+  name   : "cloud-sql-auth-proxy",
+  script : "./cloud-sql-proxy",
+  args   : "--address 0.0.0.0 nexashopping-enterprise:asia-southeast1:mysql-vm?port=3306 nexashopping-enterprise:asia-southeast1:postgres-vm?port=5432",
     },
     {
       name      : "user-service",
