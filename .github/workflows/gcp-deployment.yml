@@ -36,7 +36,7 @@ jobs:
         - name: Start the vm-services-seed
           run: gcloud compute instances start ${{ env.VM_NAME }} --zone=${{ env.ZONE }}
 
-        - name: Connect with the vm-services-seed through SSH,pull the latest code and build the project
+        - name: Connect with the vm-services-seed through SSH,pull the latest code and build the  project
           run: >
               gcloud compute ssh ${{env.USER_NAME}}@${{ env.VM_NAME }} --zone=${{ env.ZONE }}
               --command "echo 'Connected to the vm-services-seed successfully!' &&
