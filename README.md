@@ -2,7 +2,20 @@
 
 A modern microservices-based e-commerce platform built with Spring Boot and Spring Cloud, designed for scalability and high availability. NexaShopping provides comprehensive services for managing users, inventory items, and orders in a distributed system architecture.
 
-## 📋 Table of Contents
+## � Project Details
+
+| Field          | Value |
+|----------------|---|
+| Student Name   | Dilusha Sandaruwan |
+| Student Number | 2301691099 |
+| Slack Handle   | Dilusha Sandaruwan |
+| Module         | ITS 2130 Enterprise Cloud Application |
+| Program        | GDSE @ IJSE |
+| GCP Project ID | nexashopping-enterprise |
+
+---
+
+## �📋 Table of Contents
 
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
